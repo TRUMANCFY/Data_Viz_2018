@@ -78,10 +78,10 @@ function createBoxLegend(svg) {
 function createColorMapLegend(svg, value) {
   colorbar = svg.append('g')
 
-                      .attr('transform', 'translate(0, 40)')
+                      .attr('transform', 'translate(20, 30)')
                       .attr('width', 50);
 
-  var w = 300, h = 50;
+  var w = 200, h = 50;
 
 
   var legend = colorbar.append("defs")

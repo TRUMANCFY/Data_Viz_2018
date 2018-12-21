@@ -292,14 +292,14 @@
             return this._div;
         };
         legend.update = function() {
-            this._div.innerHTML = '<div class="leaflet-control-layers leaflet-control-layers-expanded" id="legendBox" style="width:300px;height:100px;background:gray"></div>';
+            this._div.innerHTML = '<div class="leaflet-control-layers leaflet-control-layers-expanded" id="legendBox" style="width:250px;height:100px;background:gray"></div>';
         };
         legend.addTo(map);
 
         var legendSVG = d3.select('#legendBox')
                                 .append('svg')
                                 .attr('transform', 'translate(0,' + 0 + ')')
-                                .attr('width', 300)
+                                .attr('width', 250)
                                 .attr('height', 100);
         showBlock = true;
         function toggleBlock(num) {
