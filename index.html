@@ -319,9 +319,9 @@
         //sidebar.open('home');
 
         // Obtain the data for the statistics_div
-        
+
         let stat_elements_div = d3.select('#stat_elements_div');
-        
+
         // Initialization of statistics plotting
         const margin = {
             top: 30,
@@ -550,8 +550,8 @@
               legendSVG = d3.select('#legendBox')
                                       .append('svg')
                                       .attr('transform', 'translate(0,' + 0 + ')')
-                                      .attr('width', 380)
-                                      .attr('height', 100);
+                                      .attr('width', 250)
+                                      .attr('height', 80);
               prev = this;
               getCorrectLayerAndAddToMap(this.value);
 

@@ -57,7 +57,7 @@ function createBoxLegend(svg) {
 
     var linear = d3.scaleOrdinal()
     .domain(["Low", "Medium", "High"])
-    .range(["rgba(10, 50, 200)", "rgba(255, 255, 10)", "rgba(255, 0, 0)"]);
+    .range(["rgb(10, 50, 200)", "rgb(255, 255, 10)", "rgb(255, 0, 0)"]);
 
     boxLegend = svg.append("g")
       .attr("class", "legendOrdinal")
