@@ -136,9 +136,9 @@
                   <input id="myInput" type="text" name="myCountry" placeholder="State" >
               </div>
             <div>
-                <button type="button" class="btn btn-outline-primary" onclick="getInput()" style="position:relative;left:250px;top:60px">Search</button>
-                <button type="button" class="btn btn-outline-primary" onclick="resetInput()" style="position:relative;right:60px;top:60px">Reset</button>
-                <button type="button" class="btn btn-outline-primary" onclick="showSummary()" style="position:relative;right:30px;top:60px">Summary</button>
+                <button type="button" class="btn btn-outline-primary" onclick="getInput()" style="position:relative;left:200px;top:60px">Search</button>
+                <button type="button" class="btn btn-outline-primary" onclick="resetInput()" style="position:relative;right:50px;top:60px">Reset</button>
+                <button type="button" class="btn btn-outline-primary" onclick="showSummary()" style="position:relative;right:40px;top:60px">Summary</button>
             </div>
 
             </form>
@@ -257,7 +257,7 @@
         bounds_map._northEast.lin += 20;
         bounds_map._southWest.lat -= 20;
         bounds_map._southWest.lin -= 20;
-        map.setMaxBounds(bounds_map);
+        //map.setMaxBounds(bounds_map);
 
         var basemaps = {"OpenStreetMap": osm, "CartoDB Positron": cartodb, "Stamen Toner": toner, "Without background": white};
 
